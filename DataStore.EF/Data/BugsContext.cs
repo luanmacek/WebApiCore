@@ -11,7 +11,7 @@ namespace DataStore.EF
 {
     public class BugsContext : DbContext
     {
-        public BugsContext(DbContextOptions options) : base(options)
+        public BugsContext(DbContextOptions<BugsContext> options) : base(options)
         {
 
         }
